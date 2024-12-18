@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+/* Navbar Start */
+#navbar{
+    background:black;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color:white;
+    text-shadow: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+    
+}
+#logo span{
+    color:#ffa500;
+}
+.navbar-toggler span{
+    color:white;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color:white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background:#ffa500;
+    color:rgb(245, 240, 240);
+}
+#navbar form button{
+    background: white;
+    color:black ;
+    border: none;
+}
+/* Navbar End */
+
+
+/* causal start */
+img.slide{
+    height: 700px;
+}
+/* causal end */
+
+/* Section Products Start */
+.main-txt h1{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+  color: #ffa500;
+}
+.packages .card{
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+  border-radius: 5px;
+}
+.packages .card .card-body{
+  background: transparent;
+}
+.packages .card .card-body h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.packages .card .card-body p{
+  font-size: 15px;
+}
+
+
+.star i{
+  font-size: 15px;
+}
+.packages .card .card-body h6{
+  font-size: 20px;
+}
+.packages .card .card-body a{
+  padding: 10px;
+  text-decoration: none;
+  background: #ffa500;
+  color:rgb(249, 245, 245);
+  border-radius: 5px;
+}
+/* Section Packages End */
+
+
+/* Section Gallary Start */
+.main-txt h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 550;
+    color: white;
+}
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+/* Section Gallary End */
+
+/* Contact start */
+
+
+  .body-f{
+    font-family: 'outfit';
+    background-color: black;
+    padding-top: 30px;
+  }
+  .contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .contact-left-title h2{
+    font-weight: 600;
+    color:white;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .contact-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px;
+  }
+  .contact-left-textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+  }
+  .contact-input:focus{
+    border: 2px solid black;
+  }
+  .contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color:black;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270de,white,#08917c);
+    cursor: pointer;
+  }
+  @media(max-width:800px){
+    .contact-inputs{
+      width: 80vw;
+    }
+    .contact-right{
+      display: none;
+    }
+    
+  }
+/* Contact End */
+
+/* Footer Start */
+#footer{
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  background-color: #ffa500;
+}
+#footer h1{
+  font-weight: 600;
+  padding-top: 30px;
+  text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+  color: white;
+}
+.social-links i{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background:white;
+  color: #ffa500;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.social-links i:hover{
+  background: black;
+}
+/* Footer End */
